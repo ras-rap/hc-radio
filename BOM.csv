@@ -1,0 +1,27 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Exclude from Simulation,Exclude from Position Files,Footprint,Datasheet
+BT1,1,Battery,,,,,${EXCLUDE_FROM_POS_FILES},Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,
+"C1,C2",2,4.7uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+"C3,C10,C14,C15,C18",5,1uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+"C4,C7,C8,C11",4,10uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+"C5,C6,C9,C12,C16",5,0.1uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+C13,1,10nF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+C17,1,22uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D40",40,1N4148,,,,,${EXCLUDE_FROM_POS_FILES},Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+D41,1,LED,,,,,${EXCLUDE_FROM_POS_FILES},LED_THT:LED_D3.0mm,
+IC1,1,E22-900M22S,,,,,${EXCLUDE_FROM_POS_FILES},E22-900M22S:E22-900M22S,
+J1,1,USB_B,,,,,${EXCLUDE_FROM_POS_FILES},Connector_USB:USB_B_Lumberg_2411_02_Horizontal,
+J3,1,Conn_01x04,,,,,${EXCLUDE_FROM_POS_FILES},Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+LS1,1,Speaker,,,,,${EXCLUDE_FROM_POS_FILES},Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,
+R1,1,2kO,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R2,R7",2,1kO,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R3,R4,R8",3,100kO,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R5,R6",2,10kO,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+"R9,R10",2,4.7kO,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
+RV1,1,R_Potentiometer,,,,,${EXCLUDE_FROM_POS_FILES},Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal,
+"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36,SW37,SW38,SW39,SW40,SW51,SW52",42,*,,,,,${EXCLUDE_FROM_POS_FILES},Button_Switch_THT:SW_PUSH_6mm,
+SW41,1,SW_SPDT,,,,,${EXCLUDE_FROM_POS_FILES},Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,
+U1,1,ESP32-S3-WROOM-1,,,,,${EXCLUDE_FROM_POS_FILES},RF_Module:ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+U2,1,MCP73831-2-OT,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+U3,1,AP2112K-3.3,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+U4,1,NS4150,,,,,${EXCLUDE_FROM_POS_FILES},Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,
+U5,1,USBLC6-2SC6,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
